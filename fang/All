@@ -1,0 +1,166 @@
+15254|updatePanel|ctl00_ContentPlaceHolder1_updatepanel1|
+                                                    <table cellSpacing=0 cellPadding=0 width="100%">
+                                         	            <tr style="display:none;"><td colspan="2" align="left"><font color="red">每月一日系统自动完成“上月成交信息”统计，由于合同签订后可能进行撤销和修改等操作，统计出的套数、面积、金额等数据可能和上个月中逐日的成交（“当日成交信息”）累计值不相等。敬请留意。</font></td></tr>
+                                                        <tr>
+                                                        <td width="4%"><IMG height=13 src="../images/2007icon09.gif" width=15></td>
+                                                        <td align="left" valign="middle" height="30px">
+                                                	            所在区：<a id="ctl00_ContentPlaceHolder1_hypAll" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypAll','')" style="color:Red;">全市</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypBa" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypBa','')" style="color:Black;">宝安</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypFt" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypFt','')" style="color:Black;">福田</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypLg" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypLg','')" style="color:Black;">龙岗</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypLh" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypLh','')" style="color:Black;">罗湖</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypNs" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypNs','')" style="color:Black;">南山</a>
+                                                            &nbsp;&nbsp;<a id="ctl00_ContentPlaceHolder1_hypYt" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$hypYt','')" style="color:Black;">盐田</a>
+                                                            &nbsp;&nbsp;
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td colspan="2" height=8></td></tr>
+                                                    
+                                                    <tr>
+                                                        <td colspan="2">
+                                                            <div id="ctl00_ContentPlaceHolder1_ctrlPanel">
+	
+
+<table width="100%">
+<tr>
+  <td width="4%" align="center"><IMG height=16 alt="点我收缩"  onmouseover="showImgAlt(this,'web_icon_019.gif','web_icon_020.gif');" onclick="BlockShow(this,'web_icon_019.gif','web_icon_020.gif',1);" src="../images/web_icon_019.gif" width=16></td>
+  <td align="left">
+    <a name="1"><SPAN class=titleblue><span id="lblCurTime1">2016年09月26日</span>
+          &nbsp;&nbsp;（<span id="lbldistrict1" style="color:Red;">全市</span>）商品住房按户型统计成交信息</SPAN></a>
+  </td>
+</tr>
+<!--当日商品住房成交-->
+<tr id="TrClientList1">
+   <td colspan="2" valign="Top" align="center">
+    <div>
+		<table cellspacing="0" rules="all" border="1" id="clientList1" style="border-color:#DEEFF5;border-width:1px;border-style:Solid;width:99%;border-collapse:collapse;">
+			<tr style="color:#E15E03;background-color:#DEEFF5;border-color:#DEEFF5;font-size:12px;">
+				<th scope="col">户型</th><th scope="col">成交套数</th><th scope="col">成交面积(㎡)</th><th scope="col">成交均价(元)</th><th scope="col">可售套数</th><th scope="col">可售面积(㎡)</th>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">一房住宅</td><td style="border-color:#DEEFF5;width:14%;">16</td><td align="right" style="border-color:#DEEFF5;width:20%;">1497.08     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    57884&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">5546</td><td align="right" style="border-color:#DEEFF5;width:20%;">430621.34     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">二房住宅</td><td style="border-color:#DEEFF5;width:14%;">52</td><td align="right" style="border-color:#DEEFF5;width:20%;">4332.33     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    48367&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">17058</td><td align="right" style="border-color:#DEEFF5;width:20%;">1465838.90     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">三房住宅</td><td style="border-color:#DEEFF5;width:14%;">25</td><td align="right" style="border-color:#DEEFF5;width:20%;">3132.06     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    59194&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">12725</td><td align="right" style="border-color:#DEEFF5;width:20%;">1434049.76     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">四房住宅</td><td style="border-color:#DEEFF5;width:14%;">7</td><td align="right" style="border-color:#DEEFF5;width:20%;">1169.83     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    66349&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">3656</td><td align="right" style="border-color:#DEEFF5;width:20%;">651486.99     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">四房以上</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">1046</td><td align="right" style="border-color:#DEEFF5;width:20%;">232928.71     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">单身宿舍</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">5</td><td align="right" style="border-color:#DEEFF5;width:20%;">452.12     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">单身公寓</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">43</td><td align="right" style="border-color:#DEEFF5;width:20%;">1464.89     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">复式</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">608</td><td align="right" style="border-color:#DEEFF5;width:20%;">94841.54     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">复式住宅</td><td style="border-color:#DEEFF5;width:14%;">1</td><td align="right" style="border-color:#DEEFF5;width:20%;">87.24     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    149037&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">808</td><td align="right" style="border-color:#DEEFF5;width:20%;">162569.79     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">别墅</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">28</td><td align="right" style="border-color:#DEEFF5;width:20%;">12443.47     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">其他</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">163</td><td align="right" style="border-color:#DEEFF5;width:20%;">31458.93     </td>
+			</tr><tr style="font-weight:bold;">
+				<td style="border-color:#DEEFF5;width:14%;">小计</td><td style="border-color:#DEEFF5;width:14%;">101</td><td align="right" style="border-color:#DEEFF5;width:20%;">10218.54     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    55998&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">41686</td><td align="right" style="border-color:#DEEFF5;width:20%;">4518156.44     </td>
+			</tr>
+		</table>
+	</div>
+    </td>
+</tr>
+<tr><td colspan="2" height="10px">&nbsp;</td></tr>
+<tr>
+  <td  align="center" ><IMG height=16 alt="点我收缩"  onmouseover="showImgAlt(this,'web_icon_019.gif','web_icon_020.gif');" onclick="BlockShow(this,'web_icon_019.gif','web_icon_020.gif',5);" src="../images/web_icon_019.gif" width=16></td>
+  <td align="left">
+    <SPAN class=titleblue><span id="lblCurTime5">2016年09月26日</span>
+          &nbsp;&nbsp;（<span id="lbldistrict5" style="color:Red;">全市</span>）商品住房按面积统计成交信息</SPAN>
+  </td>
+</tr>
+<!--当日商品住宅按面积统计成交-->
+<tr id="TrClientList5">
+   <td colspan="2" valign="Top" align="center">
+    <div>
+		<table cellspacing="0" rules="all" border="1" id="clientList5" style="border-color:#DEEFF5;border-width:1px;border-style:Solid;width:99%;border-collapse:collapse;">
+			<tr style="color:#E15E03;background-color:#DEEFF5;border-color:#DEEFF5;font-size:12px;">
+				<th scope="col">面积区间</th><th scope="col">成交套数</th><th scope="col">成交面积(㎡)</th><th scope="col">成交均价(元)</th><th scope="col">成交金额(元)</th>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;">90平方米以下</td><td style="border-color:#DEEFF5;">75</td><td align="right" style="border-color:#DEEFF5;">6213.95     </td><td align="right" style="border-color:#DEEFF5;">47245    </td><td align="right" style="border-color:#DEEFF5;">293577918    </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;">90~144平方米</td><td style="border-color:#DEEFF5;">17</td><td align="right" style="border-color:#DEEFF5;">2140.56     </td><td align="right" style="border-color:#DEEFF5;">47631    </td><td align="right" style="border-color:#DEEFF5;">101957003    </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;">144平方米以上</td><td style="border-color:#DEEFF5;">9</td><td align="right" style="border-color:#DEEFF5;">1864.03     </td><td align="right" style="border-color:#DEEFF5;">94785    </td><td align="right" style="border-color:#DEEFF5;">176682596    </td>
+			</tr><tr style="font-weight:bold;">
+				<td style="border-color:#DEEFF5;">小计</td><td style="border-color:#DEEFF5;">101</td><td align="right" style="border-color:#DEEFF5;">10218.54     </td><td align="right" style="border-color:#DEEFF5;">55998    </td><td align="right" style="border-color:#DEEFF5;">572217517    </td>
+			</tr>
+		</table>
+	</div>
+    </td>
+</tr>
+<!--当日商品房成交-->
+<tr>
+  <td align="center"><IMG height=16 onmouseover="showImgAlt(this,'web_icon_019.gif','web_icon_020.gif');" onclick="BlockShow(this,'web_icon_019.gif','web_icon_020.gif',2);" src="../images/web_icon_019.gif" width=16></td>
+  <td align="left">
+    <a name="2"><SPAN class=titleblue><span id="lblCurTime2">2016年09月26日</span>
+          &nbsp;&nbsp;（<span id="lbldistrict2" style="color:Red;">全市</span>）商品房成交信息</SPAN></a>
+  </td>
+</tr>
+<tr id="TrClientList2">
+   <td colspan="2" valign="Top" align="center">
+     <div>
+		<table cellspacing="0" rules="all" border="1" id="clientList2" style="border-color:#DEEFF5;border-width:1px;border-style:Solid;width:99%;border-collapse:collapse;">
+			<tr style="color:#E15E03;background-color:#DEEFF5;border-color:#DEEFF5;font-size:12px;">
+				<th scope="col">用途</th><th scope="col">成交套数</th><th scope="col">成交面积(㎡)</th><th scope="col">成交均价(元)</th><th scope="col">可售套数</th><th scope="col">可售面积(㎡)</th>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">商业</td><td style="border-color:#DEEFF5;width:14%;">35</td><td align="right" style="border-color:#DEEFF5;width:20%;">1966.43     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    56319&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">20353</td><td align="right" style="border-color:#DEEFF5;width:20%;">2195711.54     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">办公楼</td><td style="border-color:#DEEFF5;width:14%;">9</td><td align="right" style="border-color:#DEEFF5;width:20%;">1417.39     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    20092&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">4154</td><td align="right" style="border-color:#DEEFF5;width:20%;">635494.59     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">住宅</td><td style="border-color:#DEEFF5;width:14%;">101</td><td align="right" style="border-color:#DEEFF5;width:20%;">10218.54     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    55998&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">41686</td><td align="right" style="border-color:#DEEFF5;width:20%;">4518156.44     </td>
+			</tr><tr>
+				<td style="border-color:#DEEFF5;width:14%;">其他</td><td style="border-color:#DEEFF5;width:14%;">0</td><td align="right" style="border-color:#DEEFF5;width:20%;">0     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    0&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">3281</td><td align="right" style="border-color:#DEEFF5;width:20%;">513929.95     </td>
+			</tr><tr style="font-weight:bold;">
+				<td style="border-color:#DEEFF5;width:14%;">小计</td><td style="border-color:#DEEFF5;width:14%;">145</td><td align="right" style="border-color:#DEEFF5;width:20%;">13602.36     </td><td align="right" style="border-color:#DEEFF5;width:18%;">
+                    52303&nbsp;&nbsp;&nbsp;&nbsp;
+                </td><td style="border-color:#DEEFF5;width:14%;">69474</td><td align="right" style="border-color:#DEEFF5;width:20%;">7863292.52     </td>
+			</tr>
+		</table>
+	</div>
+    </td>
+</tr>
+<tr><td colspan="2" height="10px">&nbsp;</td></tr>
+</table>
+</div>
+                                                         </td>
+                                                    </tr>
+                                                    <tr><td colspan="2" height="10px">&nbsp;</td></tr>
+                                                    </table>
+                                                |0|hiddenField|__EVENTTARGET||0|hiddenField|__EVENTARGUMENT||0|hiddenField|__LASTFOCUS||1736|hiddenField|__VIEWSTATE|/gkjZGVSXoh0nDzQ5cecXIHcaaoKSg4cH+7p9VnUXEp7vPeUl8xia0igt7JQ9+pbfcQopDB1Ug7AT+cWQDWcRwyyNSanmEPu5na9TZBNcYQ2ZB67THg9Et1gjxBbu71qoAQiboM2ptHkDHx8Ecf3fQc0WDZNygYgKysGzbRtdAamwNhfgEhlfCVmylSThw4ilaSrhoLQi07o2UFu7c5CK1rhW9eUv24HxvU7lLzBnkhC9wXEcM/+wk6SJAkbn420m9X/YI/zHiREWP3ze8ykTl29G494/EZzbxkC06b0Tyu8XENDstBnvV7XwnczotynxospJ0Tps3El0V5eLUeBIPN+USkEB8/4ma8f83wkY79JAoZMpG1Yj2gu+hSkO6s7ts25i5Txd/rk50TVNZ1Wt0lU1uXI7oN1DaqB1kW+FLW2wbRCtaQjnwi2zaAmnQ8fxaeCL4GYVGiOclTNOYuBvy2/HE2tgGiR5AyP4EpFJ4FQiXe5dLYY3vzjYt+wsiTXfhru/IvsoyySf6BtH4PRDdueKsBlIScMfELk+oDnHgL3tk8BOCzyyktSNik2nJw3tY7RCzHlZ9eSsg8cNbj0cu9rP9QbeDrugHJhHTU94OQrhUxS6+JxlhYimLKQy977Y7r7M9Qq5iOJhnqosvcpIh8+IdyHNIKIGIf58Aspe7E93AYxiKJPu+f0G61Vrnr8wbu6cEZ6uO8saxFXl1a5sdLIhlWINDKubaeeXSqmFZZmKrQreKPe7pcVseOlrBWNLKdimKgRbbr7zLm6Fbat5o0xThGVSjZULGFaReAyKDtEd9XIhOeu86dGLBHvQ4m89Q/aumX/wQ//55//X06a49USt1y0IWvXFCc1jzdPUFHVlO/yWwvjqC1jUBwQWiuXK1f0A4zvjXcu4pEL6puo638By2bm/+o4p2ZG4yqCC8LQ0kbmwV/6qVrcRprgA030kI3F8rzXA5FW4IZiIOLWrI7kwwIIr6vruMrfpJTS0UC5yLXQIyIknmAHIWG0RApJnMh1m6IJNHt/bAfxEfWVwHggEvp6reSAYfQNgBMJpei7UjxAwG2hF5d9xlUyiOb1eKTvPTzlSWzF7A8fe7aosaQCal+f64NTYpRwTMHOKxuvhlQrEynGVESgMN0Hkx30rS6PnkVBZ5COHtR4TMd7s1THXCjaijZ2T2Ss1t0VUI+zWt+kfZaL8gQGCb4AOjDpdaT8E6bgWCL94cCXeUTv184ue1C6K4XWg0MxY7Q+isx2APk+Lt2s9pJL7oxnHF6kDS081jc/LG9mU/R6fthPt6jWxvLezOlKR0u3E8XA+tymwc017U3Fet5YDEFFBuUQ7xXk7M56c0fjurmswgQ7oAVFr4Zkm7oHAgzhWEaYQwzOQZTfmiAM6RTRmfKVQAje3A6SWCfeP+vCjK1+0Vf51zMPVH8b1Zs4zGte1WsBD0wCpiRoh1ZMrQVYloWftOZNrJdC9a+MjQXVSdLVP1+U1bwThLrxs8BhJdWy7bOmUS2twjX90yIlszCwCLhMwuN9yUj4IvvpTMAIYR8AwiAAGJkL6xzySQkQVIQUhoYhUZhKzensVeTfxKTOQUkIg+/STJZFYcqtkVkywzhlHVynxbXhdYSOO8y7e2vXDyTnVah7ny11AsLORbQclLMnzifbl/Bb66mxlz45vYjEfn7ZqPOF7JFQCr2yKmioHkTqTbpvdDDxSj8YXeUCpAM8Md816JlkLw==|8|hiddenField|__VIEWSTATEGENERATOR|9030114A|0|hiddenField|__VIEWSTATEENCRYPTED||176|hiddenField|__EVENTVALIDATION|4BIQ27RSHTIwrzfUWlil2DbC2KFYq07xL+Sm5XVaeO1N5/cebpiomoR6LxIJLGxgc/OfVbifRwpOB9/Fkkg8nmySGVPvWFz5rEHAnSsVWm0/IRGS0JSfjoLV/yuaUabHi0A/DSh7/2e3wQOaJ+d+RbdW/OnPfPrZSlXZLD6dByTkuX2S|0|asyncPostBackControlIDs|||0|postBackControlIDs|||39|updatePanelIDs||tctl00$ContentPlaceHolder1$updatepanel1|0|childUpdatePanelIDs|||38|panelsToRefreshIDs||ctl00$ContentPlaceHolder1$updatepanel1|2|asyncPostBackTimeout||90|21|formAction||ysfcjgs.aspx?cjType=0|10|pageTitle||深圳市房地产信息系统|
