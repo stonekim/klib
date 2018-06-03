@@ -7,5 +7,6 @@ function pushd_popd_dirs {
    popd
 }
 
+tar xvfz antiporn_model.tgz -C antiporn --strip-components 1
 
 pushd_popd_dirs
